@@ -1,8 +1,10 @@
 public class Escola {
     public static void main(String[] args) {
-        Estudante estudante1 = new Estudante();
-        estudante1.setName("Bernardo Rocha");
-        estudante1.setAge(23);
+        String nome = "Bernardo Rocha";
+        int idade = 23;
+        Estudante estudante1 = new Estudante(nome, idade);
+        estudante1.setName(nome);
+        estudante1.setAge(idade);
         
         System.out.println("Aluno: " + estudante1.getName() + "; Idade: " + estudante1.getAge());
     }
