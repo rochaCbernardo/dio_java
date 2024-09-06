@@ -1,4 +1,5 @@
 import aparelhoTelefonico.AparelhoTelefonico;
+import navegadorInternet.NavegadorInternet;
 
 public class Iphone implements AparelhoTelefonico, NavegadorInternet, ReprodutorMusical{
     public void ligar(String numero){
