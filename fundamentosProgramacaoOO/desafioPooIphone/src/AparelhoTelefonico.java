@@ -1,11 +1,5 @@
 public interface AparelhoTelefonico {
-    private void ligar(String numero){
-        System.out.println("Realizando chamada!");
-    }
-    private void atender(){
-        System.out.println("Chamada atendida");
-    }
-    private void iniciarCorreioVoz(){
-        System.out.println("Correio eletrônico");
-    }
+    public void ligar(String numero);
+    public void atender();
+    public void iniciarCorreioVoz();
 }
