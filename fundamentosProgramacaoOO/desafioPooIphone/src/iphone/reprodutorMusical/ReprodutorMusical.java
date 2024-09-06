@@ -1,4 +1,4 @@
-package reprodutorMusical;
+package iphone.reprodutorMusical;
 public interface ReprodutorMusical {
     public void tocarMusica();
     public void pausarMusica();

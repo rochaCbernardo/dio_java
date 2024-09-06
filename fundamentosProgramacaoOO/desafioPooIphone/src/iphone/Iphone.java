@@ -1,6 +1,7 @@
-import aparelhoTelefonico.AparelhoTelefonico;
-import navegadorInternet.NavegadorInternet;
-import reprodutorMusical.ReprodutorMusical;
+package iphone;
+import iphone.aparelhoTelefonico.AparelhoTelefonico;
+import iphone.navegadorInternet.NavegadorInternet;
+import iphone.reprodutorMusical.ReprodutorMusical;
 
 public class Iphone implements AparelhoTelefonico, NavegadorInternet, ReprodutorMusical{
     public void ligar(String numero){

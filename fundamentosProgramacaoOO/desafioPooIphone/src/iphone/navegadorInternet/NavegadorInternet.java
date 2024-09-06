@@ -1,4 +1,4 @@
-package navegadorInternet;
+package iphone.navegadorInternet;
 public interface NavegadorInternet {
 
     public void adicionarNovaAba();
