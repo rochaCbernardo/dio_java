@@ -1,3 +1,5 @@
+import aparelhoTelefonico.AparelhoTelefonico;
+
 public class Iphone implements AparelhoTelefonico, NavegadorInternet, ReprodutorMusical{
     public void ligar(String numero){
         System.out.println("Realizando chamada!");
