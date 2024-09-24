@@ -15,6 +15,27 @@ public class OrdenacaoNumero{
         Collections.sort(numerosAscendente);
         return numerosAscendente;
     }
-    ordenarDescendente(){}
+    public List<Numero> ordenarDescendente(){
+        List<Numero> numeroDescendente = new ArrayList<>(numeros);
+        Collections.sort(numeroDescendente, Collections.reverseOrder());
+        return numeroDescendente;
+    }
+
+    public static void main(String[] args) {
+        OrdenacaoNumero numero = new OrdenacaoNumero();
+
+        numero.adicionarNumero(10);
+        numero.adicionarNumero(25);
+        numero.adicionarNumero(3);
+        numero.adicionarNumero(12);
+        numero.adicionarNumero(45);
+        numero.adicionarNumero(1);
+        numero.adicionarNumero(2);
+        numero.adicionarNumero(32);
+
+        System.out.println(numero.ordenarAscendente());
+        System.out.println(numero.ordenarDescendente());
+
+    }
 
 }
